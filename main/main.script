@@ -8,8 +8,7 @@ end
 
 -- Get input focus then start the splash statemachine.
 function init(self)
-	msg.post(".", "acquire_input_focus") 
-	rive.play_state_machine("#SPLASH", "SPLASH", nil, rive_event_handler) 
+	msg.post(".", "acquire_input_focus")
 end
 
 
